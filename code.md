@@ -1,3 +1,4 @@
+```
 section .text
         global _start           ;must be declared for linker (ld)
                                 ;global is used to export the _start label
@@ -24,3 +25,4 @@ exit:                           ;tells exit point
 
 segment .bss
         result resb 1           ;uninitialized variable result (reserve a byte)
+```
